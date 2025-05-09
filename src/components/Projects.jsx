@@ -17,8 +17,8 @@ export default function Projects() {
                     A secure, cross-platform digital solution for managing student healthcare within educational institutions. Features include passport-based user authentication, student dashboards, automated leave documentation, and initial appointment booking. Built with EJS, Express.js, Node.js, and MongoDB, the system enhances accessibility, data security, and administrative efficiency.
                     </div>
                     <div className="d-flex justify-content-center align-items-center gap-5 p-2">
-                        <a href="https://github.com/Yash-Atkari/Aarogyam" className="btn btn-outline-light">Code</a>
-                        <a href="https://aarogyam-hypg.onrender.com/" className="btn btn-outline-light">Demo</a>
+                        <a href="https://github.com/Yash-Atkari/Aarogyam" target='_blank' className="btn btn-outline-light">Code</a>
+                        <a href="https://aarogyam-hypg.onrender.com/" target='_blank' className="btn btn-outline-light">Demo</a>
                     </div>
                 </div>
                 <div className="w-25 border rounded p-2">
@@ -30,8 +30,8 @@ export default function Projects() {
                     A secure, cross-platform digital solution for managing student healthcare within educational institutions. Features include passport-based user authentication, student dashboards, automated leave documentation, and initial appointment booking. Built with EJS, Express.js, Node.js, and MongoDB, the system enhances accessibility, data security, and administrative efficiency.
                     </div>
                     <div className="d-flex justify-content-center align-items-center gap-5 p-2">
-                        <a href="https://github.com/Yash-Atkari/Wanderlust" className="btn btn-outline-light">Code</a>
-                        <a href="https://airbnb-clone-1-2et5.onrender.com" className="btn btn-outline-light">Demo</a>
+                        <a href="https://github.com/Yash-Atkari/Wanderlust" target='_blank' className="btn btn-outline-light">Code</a>
+                        <a href="https://airbnb-clone-1-2et5.onrender.com" target='_blank' className="btn btn-outline-light">Demo</a>
                     </div>
                 </div>
                 <div className="w-25 border rounded p-2">
@@ -43,8 +43,8 @@ export default function Projects() {
                     A secure, cross-platform digital solution for managing student healthcare within educational institutions. Features include passport-based user authentication, student dashboards, automated leave documentation, and initial appointment booking. Built with EJS, Express.js, Node.js, and MongoDB, the system enhances accessibility, data security, and administrative efficiency.
                     </div>
                     <div className="d-flex justify-content-center align-items-center gap-5 p-2">
-                        <a href="https://github.com/Yash-Atkari/VibeSync" className="btn btn-outline-light">Code</a>
-                        <a href="https://vibe-sync-green.vercel.app/" className="btn btn-outline-light">Demo</a>
+                        <a href="https://github.com/Yash-Atkari/VibeSync" target='_blank' className="btn btn-outline-light">Code</a>
+                        <a href="https://vibe-sync-green.vercel.app/" target='_blank' className="btn btn-outline-light">Demo</a>
                     </div>
                 </div>
                 <div className="w-25 border rounded p-2">
@@ -56,8 +56,8 @@ export default function Projects() {
                     A secure, cross-platform digital solution for managing student healthcare within educational institutions. Features include passport-based user authentication, student dashboards, automated leave documentation, and initial appointment booking. Built with EJS, Express.js, Node.js, and MongoDB, the system enhances accessibility, data security, and administrative efficiency.
                     </div>
                     <div className="d-flex justify-content-center align-items-center gap-5 p-2">
-                        <a href="https://github.com/Yash-Atkari/Yash-Atkari-Portfolio.git" className="btn btn-outline-light">Code</a>
-                        <a href="https://yash-atkari-portfolio1.vercel.app/" className="btn btn-outline-light">Demo</a>
+                        <a href="https://github.com/Yash-Atkari/Yash-Atkari-Portfolio.git" target='_blank' className="btn btn-outline-light">Code</a>
+                        <a href="https://yash-atkari-portfolio1.vercel.app/" target='_blank' className="btn btn-outline-light">Demo</a>
                     </div>
                 </div>
             </div>
