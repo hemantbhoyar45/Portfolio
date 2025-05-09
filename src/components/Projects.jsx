@@ -57,7 +57,7 @@ export default function Projects() {
                     </div>
                     <div className="d-flex justify-content-center align-items-center gap-5 p-2">
                         <a href="https://github.com/Yash-Atkari/Yash-Atkari-Portfolio.git" className="btn btn-outline-light">Code</a>
-                        <a href="" className="btn btn-outline-light">Demo</a>
+                        <a href="yash-atkari-portfolio1.vercel.app" className="btn btn-outline-light">Demo</a>
                     </div>
                 </div>
             </div>
