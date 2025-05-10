@@ -16,7 +16,7 @@ export default function Contact() {
                     <a href="https://github.com/Yash-Atkari" target="_blank" rel="noopener noreferrer">
                         <i className="fa-brands fa-github"></i> GitHub
                     </a> &nbsp; | &nbsp;
-                    <a href="https://yash-atkari-portfolio1.vercel.app/" target="_blank" rel="noopener noreferrer">
+                    <a href="#" target="_blank" rel="noopener noreferrer" style={{opacity: 0.5}}>
                         <i className="fa-solid fa-address-book"></i> Portfolio
                     </a>
                 </p>
