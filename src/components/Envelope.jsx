@@ -1,5 +1,3 @@
-import React from 'react';
-
 export default function Envelope() {
   return (
     <>
@@ -150,7 +148,9 @@ export default function Envelope() {
             <div className="letter-context"></div>
             <div className="letter-context-body">
               <p>
-                <strong>Dear,<br />Yash Atkari</strong><br />
+                <strong>Dear,<br />Yash Atkari
+                <br />Thank you visiting!
+                <br />I’d love to connect and collaborate.</strong><br />
               </p>
             </div>
             <div className="letter-stamp">

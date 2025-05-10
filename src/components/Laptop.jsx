@@ -1,26 +1,7 @@
-import React from 'react';
-
 export default function Laptop({src}) {
   return (
     <>
-      <div className="outer-container">
-        <div className="laptop">
-          <div className="laptop__screen">
-            <img
-              src={src}
-              width="1600"
-              height="1000"
-              alt="Screen"
-            />
-          </div>
-          <div className="laptop__bottom">
-            <div className="laptop__under"></div>
-          </div>
-          <div className="laptop__shadow"></div>
-        </div>
-      </div>
-
-      <style>{`
+    <style>{`
         .outer-container {
           display: inline-block;
           width: 350px;
@@ -115,6 +96,23 @@ export default function Laptop({src}) {
           opacity: 0.5;
         }
       `}</style>
+      
+      <div className="outer-container">
+        <div className="laptop">
+          <div className="laptop__screen">
+            <img
+              src={src}
+              width="1600"
+              height="1000"
+              alt="Screen"
+            />
+          </div>
+          <div className="laptop__bottom">
+            <div className="laptop__under"></div>
+          </div>
+          <div className="laptop__shadow"></div>
+        </div>
+      </div>
     </>
   );
 };

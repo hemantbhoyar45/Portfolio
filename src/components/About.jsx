@@ -1,19 +1,14 @@
-import Navbar from './Navbar.jsx'
-import Footer from './Footer.jsx'
+import TechBox from './TechBox';
 
 export default function About() {
     return (
-        <>
-        <Navbar />
-        <div className="px-4 py-4 bg-dark text-white" >
-            <section>
-                <div className="container py-4">
+        <div className="px-4 py-2 bg-dark text-white" >
+            <section className="d-flex align-items-center justify-content-between" style={{height: "90vh"}}>
+                <div className="container">
                     <div>
                         <h2>Know Who I'm</h2>
                         <p>Hi everyone, I am Yash Atkari. Currently in 2nd year pursuing bachelor's in Technology from G H Raisoni College of Engineering, Nagpur</p>
-                        <p>This year I had participated in 4 hackathons to work on real world problem and to contribute to the innovative solutions. I also gain a certificate of achievement in one of those hackathons.</p>
-                    </div>
-                    <div>
+                        <p>This year I had participated in 4 hackathons to work on real world problem and to contribute to the innovative solutions. <br /> I also gain a certificate of achievement in one of those hackathons.</p>
                         <h4>Attended Hackathons in 2025</h4>
                         <ol>
                             <li>Healthcare Management System Hackathon at <b>Fluxus IIT Indore</b></li>
@@ -23,61 +18,37 @@ export default function About() {
                         </ol>
                     </div>
                 </div>
+                <img src="/about_image.png" className="img-fluid" alt="Image" style={{height: "350px", width: "250px"}} />
             </section>
-            <section style={{paddingTop: "100px"}} className="d-flex flex-column align-items-center">
-                <h2>Professional SkillSet</h2>
+            <section className="d-flex flex-column m-5">
+                <h2 className="text-center mb-4">Professional SkillSet</h2>
                 <div className="d-flex gap-3 flex-wrap justify-content-center">
-                    <div className="d-flex align-items-center justify-content-center" style={{height: "100px", width: "200px", border: "2px solid black", borderRadius: "5px"}}>
-                        <img src="/java.png" alt="java_image" className="h-75" />
-                    </div>
-                    <div className="d-flex align-items-center justify-content-center" style={{height: "100px", width: "200px", border: "2px solid black", borderRadius: "5px"}}>
-                        <img src="/mongodb.png" alt="java_image" className="h-75" />
-                    </div>
-                    <div className="d-flex align-items-center justify-content-center" style={{height: "100px", width: "200px", border: "2px solid black", borderRadius: "5px"}}>
-                        <img src="/expressjs.png" alt="java_image" className="h-75" />
-                    </div>
-                    <div className="d-flex align-items-center justify-content-center" style={{height: "100px", width: "200px", border: "2px solid black", borderRadius: "5px"}}>
-                        <img src="/react.png" alt="java_image" className="h-75" />
-                    </div>
-                    <div className="d-flex align-items-center justify-content-center" style={{height: "100px", width: "200px", border: "2px solid black", borderRadius: "5px"}}>
-                        <img src="/nodejs.png" alt="java_image" className="h-75" />
-                    </div>
-                    <div className="d-flex align-items-center justify-content-center" style={{height: "100px", width: "200px", border: "2px solid black", borderRadius: "5px"}}>
-                        <img src="/html.png" alt="java_image" className="h-75" />
-                    </div>
-                    <div className="d-flex align-items-center justify-content-center" style={{height: "100px", width: "200px", border: "2px solid black", borderRadius: "5px"}}>
-                        <img src="/css.png" alt="java_image" className="h-75" />
-                    </div>
-                    <div className="d-flex align-items-center justify-content-center" style={{height: "100px", width: "200px", border: "2px solid black", borderRadius: "5px"}}>
-                        <img src="/js.png" alt="java_image" className="h-75" />
-                    </div>
-                    <div className="d-flex align-items-center justify-content-center" style={{height: "100px", width: "200px", border: "2px solid black", borderRadius: "5px"}}>
-                        <img src="/bootstrap.png" alt="java_image" className="h-75" />
-                    </div>
-                    <div className="d-flex align-items-center justify-content-center" style={{height: "100px", width: "200px", border: "2px solid black", borderRadius: "5px"}}>
-                        <img src="/mysql.png" alt="java_image" className="h-75" />
-                    </div>
+                    <TechBox src={"/java.png"} />
+                    <TechBox src={"/mongodb.png"} />
+                    <TechBox src={"/expressjs.png"} />
+                    <TechBox src={"/react.png"} />
+                    <TechBox src={"/nodejs.png"} />
+                    <TechBox src={"/html.png"} />
+                    <TechBox src={"/css.png"} />
+                    <TechBox src={"/js.png"} />
+                    <TechBox src={"/bootstrap.png"} />
+                    <TechBox src={"/mysql.png"} />
                 </div>
             </section>
-            <section style={{height: "50vh"}} className="d-flex flex-column align-items-center justify-content-center">
-                <h2>Tools I Use</h2>
+            <section className="d-flex flex-column align-items-center justify-content-center" style={{height: "50vh"}}>
+                <h2 className="mb-4">Tools I Use</h2>
                 <div className="d-flex gap-3 flex-wrap">
-                    <div className="d-flex align-items-center justify-content-center" style={{height: "100px", width: "200px", border: "2px solid black", borderRadius: "5px"}}>
-                        <img src="/java.png" alt="java_image" className="h-75" />
-                    </div>
-                    <div className="d-flex align-items-center justify-content-center" style={{height: "100px", width: "200px", border: "2px solid black", borderRadius: "5px"}}>
-                        <img src="/java.png" alt="java_image" className="h-75" />
-                    </div>
+                    <TechBox src={"/vscode.png"} />
+                    <TechBox src={"/git.png"} />
+                    <TechBox src={"/github.png"} />
                 </div>
             </section>
-            <section className="d-flex flex-column align-items-center">
-                <h2>Days I Code</h2>
+            <section className="d-flex flex-column align-items-center mb-4">
+                <h2 className="mb-4">Days I Code</h2>
                 <div>
-                    <img src="/code_image.png" alt="java_image" />
+                    <img src="/code_image.png" className="img-fluid" alt="image" />
                 </div>
             </section>
         </div>
-        <Footer />
-        </>
-    )
-}
+    );
+};
