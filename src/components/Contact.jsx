@@ -20,7 +20,7 @@ export default function Contact() {
                         <i className="fa-solid fa-address-book"></i> Portfolio
                     </a>
                 </p>
-                <p>Location: Nagpur, Maharashtra, India</p>
+                <p>Location: Nagpur, Maharashtra, India.</p>
                 <p><i>Feel free to reach out for collaborations, questions, or just to say hi!</i></p>
             </div>
         </div>
