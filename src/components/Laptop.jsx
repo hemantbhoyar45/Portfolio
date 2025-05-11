@@ -4,7 +4,7 @@ export default function Laptop({src}) {
     <style>{`
         .outer-container {
           display: inline-block;
-          width: 350px;
+          width: 250px;
         }
 
         .laptop {

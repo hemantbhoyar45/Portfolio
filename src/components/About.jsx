@@ -3,8 +3,8 @@ import TechBox from './TechBox';
 export default function About() {
     return (
         <div className="px-4 py-2 bg-dark text-white" >
-            <section className="d-flex align-items-center justify-content-between" style={{height: "90vh"}}>
-                <div className="container">
+            <section className="row align-items-center" style={{minHeight: "90vh"}}>
+                <div className="col-12 col-md-9">
                     <div>
                         <h2>Know Who I'm</h2>
                         <p>Hi everyone, I am Yash Atkari. Currently in 2nd year pursuing bachelor's in Technology from G H Raisoni College of Engineering, Nagpur</p>
@@ -18,7 +18,9 @@ export default function About() {
                         </ol>
                     </div>
                 </div>
-                <img src="/about_image.png" className="img-fluid" alt="Image" style={{height: "350px", width: "250px"}} />
+                <div className="col-12 col-md-3">
+                    <img src="/about_image.png" className="img-fluid" alt="Image" style={{minHeight: "350px", width: "250px"}} />
+                </div>
             </section>
             <section className="d-flex flex-column m-5">
                 <h2 className="text-center mb-4">Professional SkillSet</h2>
@@ -35,7 +37,7 @@ export default function About() {
                     <TechBox src={"/mysql.png"} />
                 </div>
             </section>
-            <section className="d-flex flex-column align-items-center justify-content-center" style={{height: "50vh"}}>
+            <section className="d-flex flex-column align-items-center justify-content-center" style={{minHeight: "50vh"}}>
                 <h2 className="mb-4">Tools I Use</h2>
                 <div className="d-flex gap-3 flex-wrap flex-wrap justify-content-center">
                     <TechBox src={"/vscode.png"} />
@@ -43,7 +45,7 @@ export default function About() {
                     <TechBox src={"/github.png"} />
                 </div>
             </section>
-            <section className="d-flex flex-column align-items-center mb-4">
+            <section className="d-flex flex-column align-items-center m-5">
                 <h2 className="mb-4">Days I Code</h2>
                 <div>
                     <img src="/code_image.png" className="img-fluid" alt="image" />

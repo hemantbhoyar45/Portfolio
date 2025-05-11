@@ -113,7 +113,7 @@ export default function Envelope() {
           position: absolute;
           top: 200px;
           left: 50%;
-          width: 400px;
+          width: 360px;
           height: 30px;
           transition: 0.4s;
           transform: translateX(-50%);

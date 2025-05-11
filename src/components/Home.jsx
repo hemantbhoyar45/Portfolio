@@ -1,8 +1,9 @@
 export default function Home() {
     return (
         <div className="px-5 py-2 bg-dark text-white">
-            <section className="px-5" style={{height: "80vh", marginTop: "100px"}}>
-               <div className="row align-items-center">
+            <section className="px-3 px-md-5 py-3 mt-5" style={{minHeight: "80vh"}}>
+               <div className="container">
+                <div className="row">
                     <div className="col-12 col-md-6 col-lg-9">
                         <h1>Hi there</h1>
                         <h1>I'm Yash Atkari</h1>
@@ -17,8 +18,9 @@ export default function Home() {
                         />
                     </div>
                 </div>
+               </div>
             </section>
-            <section className="px-5" style={{height: "70vh"}}>
+            <section className="px-3 px-md-5 py-3" style={{minHeight: "70vh"}}>
                 <div className="row align-items-center">
                     <div className="col-12 col-md-6 col-lg-8">
                         <h1>Let Me Introduce Myself</h1>
@@ -26,7 +28,7 @@ export default function Home() {
                         <p>I have completed Data Structures and Algorithms in Java and have hands-on experience with the MERN stack for full-stack web development.</p>
                         <p>I'm passionate about building innovative solutions and consistently improving.</p>
                     </div>
-                    <div className="col-12 col-md-6 col-lg-4 d-none d-md-block">
+                    <div className="col-12 col-md-6 col-lg-4">
                         <img 
                             style={{minHeight: "250px", width: "100%", objectFit: "cover"}} 
                             className="img-fluid" 
@@ -36,8 +38,8 @@ export default function Home() {
                     </div>
                 </div>
             </section>
-            <section className="px-5 mb-5" style={{height: "20vh"}}>
-                <div className="row align-items-center">
+            <section className="px-3 px-md-5 py-3" style={{minHeight: "20vh"}}>
+                <div className="row">
                     <h1 className="col-12 text-center">Find me on</h1>
                     <div className="col-12 text-center">
                         <a href="https://www.linkedin.com/in/yashatkari2005/" target='_blank' className="fs-3 ms-3" rel="noopener noreferrer"><i className="fa-brands fa-linkedin-in" title='LinkedIn'></i></a>

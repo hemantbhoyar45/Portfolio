@@ -1,8 +1,9 @@
 import Project from './Project.jsx';
 
 export default function ProjectList() {
+    // container - Adds padding and centers content responsively.
     return (
-        <div className="px-4 py-2 bg-dark text-white">
+        <div className="container py-2 bg-dark text-white">
             <div className="row">
                 <div className="col-md-6 col-lg-3 mb-4 border rounded-3">
                     <Project 

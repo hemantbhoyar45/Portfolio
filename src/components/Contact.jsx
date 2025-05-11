@@ -21,7 +21,7 @@ export default function Contact() {
                     </a>
                 </p>
                 <p>Location: Nagpur, Maharashtra, India.</p>
-                <p><i>Feel free to reach out for collaborations, questions, or just to say hi!</i></p>
+                <p className="text-center"><i>Feel free to reach out for collaborations, questions, or just to say hi!</i></p>
             </div>
         </div>
     );
