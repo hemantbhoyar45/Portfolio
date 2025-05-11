@@ -3,7 +3,7 @@ import Project from './Project.jsx';
 export default function ProjectList() {
     // container - Adds padding and centers content responsively.
     return (
-        <div className="container py-2 bg-dark text-white">
+        <div className="container py-2 bg-dark text-white" style={{minWidth: "99vw"}}>
             <div className="row">
                 <div className="col-md-6 col-lg-3 mb-4 border rounded-3">
                     <Project 
@@ -46,7 +46,7 @@ export default function ProjectList() {
                         "A personal developer portfolio showcasing projects, skills, and experience in a visually engaging layout. Built with React and styled using Bootstrap and custom CSS, it serves as a professional online presence."
                     }
                     codeUrl={"https://github.com/Yash-Atkari/Yash-Atkari-Portfolio.git"}
-                    demoUrl={"https://yash-atkari-portfolio1.vercel.app/"}
+                    demoUrl={"https://yash-atkari-portfolio-3.onrender.com"}
                     />
                 </div>
             </div>
