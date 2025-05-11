@@ -3,7 +3,7 @@ import TechBox from './TechBox';
 export default function About() {
     return (
         <div className="px-4 py-2 bg-dark text-white" >
-            <section className="row align-items-center" style={{minHeight: "90vh"}}>
+            <section className="row align-items-center px-5" style={{minHeight: "90vh"}}>
                 <div className="col-12 col-md-9">
                     <div>
                         <h2>Know Who I'm</h2>
