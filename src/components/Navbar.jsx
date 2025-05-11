@@ -2,7 +2,7 @@ import { NavLink } from 'react-router-dom';
 
 export default function Navbar() {
     return (
-        <nav className="d-flex justify-content-between align-items-center bg-dark px-4 py-2 sticky-top" style={{ width: "100%" }}>
+        <nav className="d-flex justify-content-between align-items-center bg-dark px-4 py-2 sticky-top">
             <NavLink to="/" className="d-inline-block mx-3" style={{height: "50px", width: "50px"}}>
                 <img src="/portfolio_logo_bg.png" alt="Portfolio logo" className="h-100 w-100"/>
             </NavLink>

@@ -37,7 +37,7 @@ export default function About() {
             </section>
             <section className="d-flex flex-column align-items-center justify-content-center" style={{height: "50vh"}}>
                 <h2 className="mb-4">Tools I Use</h2>
-                <div className="d-flex gap-3 flex-wrap">
+                <div className="d-flex gap-3 flex-wrap flex-wrap justify-content-center">
                     <TechBox src={"/vscode.png"} />
                     <TechBox src={"/git.png"} />
                     <TechBox src={"/github.png"} />

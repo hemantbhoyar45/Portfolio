@@ -26,9 +26,9 @@ export default function Home() {
                         <p>I have completed Data Structures and Algorithms in Java and have hands-on experience with the MERN stack for full-stack web development.</p>
                         <p>I'm passionate about building innovative solutions and consistently improving.</p>
                     </div>
-                    <div className="col-12 col-md-6 col-lg-4">
+                    <div className="col-12 col-md-6 col-lg-4 d-none d-md-block">
                         <img 
-                            style={{height: "350px"}} 
+                            style={{minHeight: "250px", width: "100%", objectFit: "cover"}} 
                             className="img-fluid" 
                             src="/yash_1.png" 
                             alt="profile_image" 
