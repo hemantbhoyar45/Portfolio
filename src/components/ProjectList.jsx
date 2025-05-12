@@ -35,7 +35,7 @@ export default function ProjectList() {
                         "A music-sharing and syncing platform designed to connect users through real-time collaborative playlists. Users can create rooms, sync playback, and chat with others. Built with React, Node.js, Express, and WebSockets."
                     }
                     codeUrl={"https://github.com/Yash-Atkari/VibeSync"}
-                    demoUrl={"https://vibe-sync-green.vercel.app/"}
+                    demoUrl={"https://vibesync-ao2c.onrender.com/chatbot"}
                     />
                 </div>
                 <div className="col-md-6 col-lg-3 mb-4 border rounded-3">
