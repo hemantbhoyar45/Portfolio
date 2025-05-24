@@ -1,6 +1,6 @@
 export default function Home() {
     return (
-        <div className="px-5 py-2 bg-dark text-white">
+        <div className="px-5 py-2 text-white">
             <section className="px-3 px-md-5 py-3 mt-5" style={{minHeight: "80vh"}}>
                <div className="container">
                 <div className="row">

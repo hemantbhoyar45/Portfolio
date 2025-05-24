@@ -2,7 +2,7 @@ import Envelope from "./Envelope.jsx";
 
 export default function Contact() {
     return (
-        <div className="px-4 py-2 bg-dark" style={{minHeight: "99vh", width: "99vw"}}>
+        <div className="px-4 py-2" style={{minHeight: "99vh", width: "99vw"}}>
             <div className="d-flex flex-column align-items-center ">
                 <div style={{ position: "relative", margin: "200px" }}>
                     <Envelope />

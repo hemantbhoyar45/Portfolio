@@ -1,6 +1,6 @@
 export default function Resume() {
     return (
-        <div className="bg-dark text-white" style={{height: "99%", width: "99vw"}}>
+        <div className="" style={{height: "99%", width: "99vw"}}>
             <div className="d-flex flex-column align-items-center py-4">
                 <a href="/Yash_Atkari_Resume.pdf" download className="btn mb-4 text-white" rel="noopener noreferrer" style={{backgroundColor: "blueviolet"}}>
                     Download Resume
