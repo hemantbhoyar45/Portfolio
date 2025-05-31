@@ -103,8 +103,8 @@ export default function Project({ title, src, description, codeUrl, projectUrl, 
 
           {/* Read More Button */}
           <div className="d-flex justify-content-between">
-          <a href={codeUrl} target="_blank" rel="noopener noreferrer" className="btn  text-light align-self-start" style={{ backgroundImage: "linear-gradient(to right, #007bff, #ff2c9c)", border: "none" }}>
-            <i class="fa-solid fa-code"></i>&nbsp; Code
+          <a href={codeUrl} target="_blank" rel="noopener noreferrer" className="btn text-light align-self-start" style={{ backgroundImage: "linear-gradient(to right, #007bff, #ff2c9c)", border: "none" }}>
+            <i class="fa-solid fa-code"></i>&nbsp; <span style={{ fontWeight: "600"}}>Code</span>
           </a>
           <a 
           href={projectUrl} 
@@ -113,7 +113,7 @@ export default function Project({ title, src, description, codeUrl, projectUrl, 
           className="btn btn-outline-light align-self-start d-flex align-items-center gap-2"
         >
           <i className="fa-solid fa-circle text-danger" style={{ fontSize: "0.5rem" }}></i>
-          <span>Live</span>
+          <span style={{ fontWeight: "600"}}>Live</span>
         </a>
           </div>
         </div>

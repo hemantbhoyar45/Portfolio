@@ -80,7 +80,7 @@ export default function Contact() {
                     <div className="row d-flex align-items-stretch">
                         {/* Contact Form */}
                         <div className="col-md-6 mb-4">
-                            <div className="p-4 text-light h-100" style={{ backgroundColor: "rgba(125, 125, 125, 0.2)", borderRadius: "10px" }}>
+                            <div className="p-4 text-light h-100" style={{ backgroundColor: "rgba(15, 15, 30, 0.7)", borderRadius: "10px" }}>
                                 <h4 className="mb-4">
                                     <b>Send me a message</b>
                                 </h4>
@@ -98,7 +98,7 @@ export default function Contact() {
                                     <label className="form-label">Message</label>
                                     <textarea className="form-control" style={{backgroundColor: "#2f2f36", color: "white"}} name="message" rows="4" placeholder="Your message" required></textarea>
                                     </div>
-                                    <button type="submit" className="text-light btn mt-3 w-100" style={{ backgroundImage: "linear-gradient(to right, #007bff, #ff2c9c)", border: "none" }}><i className="fa-solid fa-paper-plane"></i>&nbsp; Send</button>
+                                    <button type="submit" className="text-light btn mt-3 w-100" style={{ backgroundImage: "linear-gradient(to right, #007bff, #ff2c9c)", border: "none" }}><i className="fa-solid fa-paper-plane"></i>&nbsp; <span style={{ fontWeight: "600"}}>Send</span></button>
                                 </div>
                                 </form>
                             </div>
@@ -109,7 +109,7 @@ export default function Contact() {
                             <div
                             className="p-4 text-light h-100"
                             style={{
-                                backgroundColor: "rgba(125, 125, 125, 0.2)",
+                                backgroundColor: "rgba(15, 15, 30, 0.7)",
                                 borderRadius: "10px",
                             }}
                             >

@@ -7,11 +7,11 @@ export default function Blog({ title, coverImage, date, excerpt, category, fullC
     const [showModal, setShowModal] = useState(false);
 
     const handleClose = () => setShowModal(false);
-    const handleShow = () => setShowModal(true);
+    const handleShow = () => setShowModal(true); // background: rgba(15, 15, 30, 0.75);
 
     return (
         <div className="col-12 col-md-6 col-lg-4 mb-4">
-            <div className="blog-card rounded-4 overflow-hidden shadow-lg text-white position-relative h-100" style={{ backgroundColor: "rgba(170, 170, 170, 0.2)" }}>
+            <div className="blog-card rounded-4 overflow-hidden shadow-lg text-white position-relative h-100" style={{ backgroundColor: "rgba(15, 15, 30, 0.7)" }}>
                 {/* Cover Image */}
                 <div className="position-relative">
                     <img src={coverImage} alt={title} className="img-fluid w-100" />

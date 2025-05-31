@@ -53,7 +53,7 @@ export default function BlogList() {
     ];
 
     return (
-        <div className="row" style={{ width: "99vw", minHeight: "99vh", margin: "0" }}>
+        <div className="row mt-3" style={{ width: "99vw", minHeight: "99vh", margin: "0" }}>
             {blogs.map((blog, index) => (
                 <Blog
                     key={index}

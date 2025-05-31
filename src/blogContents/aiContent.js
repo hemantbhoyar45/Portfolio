@@ -1,4 +1,4 @@
-const aarogyamContent = `
+const aiContent = `
 How AI Impacted My Life & Career
 Category: General
 Date: March 30, 2025
@@ -61,4 +61,4 @@ AI has been one of the most powerful accelerators in my career—but it’s not 
 Because the real growth starts when you use AI to challenge your limits, not replace them.
 `;
 
-export default aarogyamContent;
+export default aiContent;

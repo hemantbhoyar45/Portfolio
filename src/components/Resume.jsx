@@ -26,7 +26,7 @@ export default function Resume() {
                     rel="noopener noreferrer"
                     style={{ backgroundImage: "linear-gradient(to right, #007bff, #ff2c9c)", border: "none" }}
                 >
-                    <i class="fa-solid fa-cloud-arrow-down"></i> Download
+                    <i class="fa-solid fa-cloud-arrow-down"></i> <span style={{ fontWeight: "600"}}>Download</span>
                 </a>
             </div>
         </div>

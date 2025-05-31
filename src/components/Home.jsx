@@ -49,7 +49,7 @@ export default function Home() {
 
             {/* Social Links Section */}
             <section className="py-5 text-center" style={{ minHeight: "20vh" }}>
-                <h2 className="display-6 fw-bold mb-4">Find me on</h2>
+                <h2 className="display-6 fw-bold">Find me on</h2>
                 <div className="col-12 text-center pe-3">
                         {/* LinkedIn */}
                         <a

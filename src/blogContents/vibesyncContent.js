@@ -1,4 +1,4 @@
-const aarogyamContent = `
+const vibesyncContent = `
 VibeSync: Where Music Meets Emotion and Mental Wellness
 VibeSync began as an ambitious idea: what if music could do more than just play? What if it could understand how you feel and sync perfectly with your mood — uplifting your spirit or calming your mind when you need it most?
 
@@ -41,4 +41,4 @@ VibeSync is more than a project; it’s a reminder that innovation doesn’t alw
 And when you build with belief, even laughter from the sidelines can’t drown out the music of your vision.
 `;
 
-export default aarogyamContent;
+export default vibesyncContent;

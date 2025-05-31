@@ -100,7 +100,7 @@ export default function About() {
                     }
                     ].map((category, index) => (
                     <div key={index} className="col-md-6 col-lg-3">
-                        <div className="p-4 rounded-4 h-100 shadow-sm border border-secondary" data-tilt style={{ backgroundColor: "rgba(170, 170, 170, 0.2" }}>
+                        <div className="p-4 rounded-4 h-100 shadow-sm border border-secondary" data-tilt style={{ backgroundColor: "rgba(15, 15, 30, 0.7)" }}>
                         <h5 className="mb-3 d-flex align-items-center gap-2" style={{color: "violet"}}>
                             <i className={`${category.icon}`}></i> {category.title}
                         </h5>

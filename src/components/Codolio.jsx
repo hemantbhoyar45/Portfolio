@@ -24,7 +24,7 @@ export default function Codolio() {
                     rel="noopener noreferrer"
                     style={{ backgroundImage: "linear-gradient(to right, #007bff, #ff2c9c)", border: "none" }}
                 >
-                    <i class="fa-solid fa-eye"></i> Visit Profile
+                    <i class="fa-solid fa-eye"></i> <span style={{ fontWeight: "600"}}>Visit Profile</span>
                 </a>
             </div>
         </div>

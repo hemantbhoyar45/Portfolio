@@ -2,25 +2,55 @@ import { Link } from 'react-router-dom';
 
 export default function Footer() {
     return (
-        <footer className="px-4 py-3 text-white">
-            <div className="container">
+        <>
+        <style>{`
+        footer {
+            background: rgba(15, 15, 30, 0.75);
+            backdrop-filter: blur(10px);
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        footer a {
+            color: white;
+            transition: all 0.3s ease;
+            font-size: 1.2rem;
+        }
+
+        footer a:hover {
+            color: #b26be8;
+        }
+
+        footer p {
+            margin: 0;
+            font-weight: 500;
+        }
+        `}</style>
+        <footer className="px-4 py-2 text-white">
+            <div className="">
                 <div className="row text-center text-md-start align-items-center gy-3">
-                    <div className="col-3 col-md-4 d-flex justify-content-center justify-content-md-start">
-                        <Link to="/" className="d-inline-flex align-items-center text-white text-md-start" style={{height: "50px", width: "50px"}}>
-                            <img className="h-100 w-100" src="/portfolio_logo_bg.png" alt="Portfolio logo"/>
-                            <span className="ms-2 d-none d-md-block">Yash Atkari</span>
+                    {/* Logo + Name */}
+                    <div className="col-12 col-md-4 d-flex justify-content-center justify-content-md-start">
+                        <Link to="/" className="d-inline-flex align-items-center text-white">
+                            <img src="/portfolio_logo_bg.png" alt="Portfolio logo" className='img-fluid' style={{ height: "40px", width: "45px" }} />
+                            <span className="ms-2">Yash Atkari</span>
                         </Link>
                     </div>
 
-                    <div className="col-5 col-md-4 text-center">
-                        <p className="m-0">Copyright &copy; 2025</p>
+                    {/* Copyright */}
+                    <div className="col-12 col-md-4 text-center">
+                        <p className="m-0">© 2025 Yash Atkari. All rights reserved.</p>
                     </div>
 
-                    <div className="col-4 col-md-4 text-center text-md-end">
+                    {/* Social Links */}
+                    <div className="col-12 col-md-4 text-center text-md-end">
                         <p className="m-0 d-none d-md-block">Connect with me</p>
                         <div className="d-flex justify-content-center justify-content-md-end gap-3 mt-2">
-                            <a href="https://www.linkedin.com/in/yashatkari2005/" target="_blank"><i className="fa-brands fa-linkedin-in"></i></a>
-                            <a href="https://github.com/Yash-Atkari" target="_blank"><i className="fa-brands fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/yashatkari2005/" target="_blank" rel="noopener noreferrer">
+                                <i className="fa-brands fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/Yash-Atkari" target="_blank" rel="noopener noreferrer">
+                                <i className="fa-brands fa-github"></i>
+                            </a>
                             <a href="#"><i className="fa-brands fa-twitter"></i></a>
                             <a href="#"><i className="fa-brands fa-instagram"></i></a>
                         </div>
@@ -28,5 +58,6 @@ export default function Footer() {
                 </div>
             </div>
         </footer>
+        </>
     );
-};
+}

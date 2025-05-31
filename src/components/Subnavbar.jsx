@@ -28,8 +28,8 @@ export default function Subnavbar() {
             }
         }
         `}</style>
-        <div className="d-flex justify-content-center mb-4">
-            <div className="sub-navbar d-flex gap-4 p-2 rounded position-fixed"  style={{backgroundColor: "rgba(125, 125, 125, 0.2)"}}>
+        <div className="d-flex justify-content-center my-2">
+            <div className="sub-navbar d-flex gap-4 p-2 rounded position-fixed"  style={{backgroundColor: "rgba(15, 15, 30, 0.7)"}}>
                 <a
                     href="#me"
                     onClick={() => setActiveLink("me")}
