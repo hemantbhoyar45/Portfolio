@@ -9,6 +9,8 @@ import ProjectList from './components/ProjectList.jsx';
 import Contact from './components/Contact.jsx';
 import Footer from './components/Footer.jsx';
 import NotFound from './components/NotFound.jsx';
+import Codolio from './components/Codolio.jsx';
+import BlogList from './components/BlogList.jsx';
 
 import AnimatedBackground from './components/AnimatedBackground'; 
 import { Color } from 'three';
@@ -25,6 +27,8 @@ function App() {
             <Route path="/about" element={<About />} />
             <Route path="/resume" element={<Resume />} />
             <Route path="/projects" element={<ProjectList />} />
+            <Route path="/codolio" element={<Codolio />} />
+            <Route path="/blogs" element={<BlogList />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="*" element={<NotFound />} />
           </Routes>

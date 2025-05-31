@@ -1,26 +1,34 @@
 export default function Resume() {
     return (
-        <div className="" style={{height: "99%", width: "99vw"}}>
+        <div style={{ height: "99%", width: "99vw" }}>
             <div className="d-flex flex-column align-items-center py-4">
-                <a href="/Yash_Atkari_Resume.pdf" download className="btn mb-4 text-white" rel="noopener noreferrer" style={{backgroundColor: "blueviolet"}}>
-                    Download Resume
-                </a>
+                <h2 className="fw-bold mb-4" style={{ color: "violet" }}>
+                    My Resume
+                </h2>
 
-                <section style={{width: "90vw", maxWidth: "1000px"}}>
-                    <iframe src="/Yash_Atkari_Resume.pdf" title="PDF Viewer"
-                        style={{
-                            width: "100%",
-                            height: "700px",
-                            border: "2px solid blueviolet",
-                            borderRadius: "10px"
-                        }}
-                    />
+                <section style={{ width: "90vw", maxWidth: "1000px" }}>
+                    <div className="d-flex align-items-center justify-content-center">
+                        <img
+                            src="/Resume.png"
+                            title="PDF Viewer"
+                            style={{
+                                borderRadius: "10px"
+                            }}
+                            className="img-fluid"
+                        />
+                    </div>
                 </section>
 
-                <a href="/Yash_Atkari_Resume.pdf" download className="btn mt-4 text-white" rel="noopener noreferrer" style={{backgroundColor: "blueviolet"}}>
-                    Download Resume
+                <a
+                    href="/Yash_Atkari_Resume.pdf"
+                    download
+                    className="btn text-white mt-4"
+                    rel="noopener noreferrer"
+                    style={{ backgroundImage: "linear-gradient(to right, #007bff, #ff2c9c)", border: "none" }}
+                >
+                    <i class="fa-solid fa-cloud-arrow-down"></i> Download
                 </a>
             </div>
         </div>
     );
-};
+}

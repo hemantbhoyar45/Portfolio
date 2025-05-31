@@ -20,6 +20,8 @@ export default function Navbar() {
                     <NavLink to="/about" className={({ isActive }) => isActive ? "fw-bold" : "text-white"}>About</NavLink>
                     <NavLink to="/resume" className={({ isActive }) => isActive ? "fw-bold" : "text-white"}>Resume</NavLink>
                     <NavLink to="/projects" className={({ isActive }) => isActive ? "fw-bold" : "text-white"}>Projects</NavLink>
+                    <NavLink to="/codolio" className={({ isActive }) => isActive ? "fw-bold" : "text-white"}>Codolio</NavLink>
+                    <NavLink to="/blogs" className={({ isActive }) => isActive ? "fw-bold" : "text-white"}>Blogs</NavLink>
                     <NavLink to="/contact" className={({ isActive }) => isActive ? "fw-bold" : "text-white"}>Contact</NavLink>
                 </div>
             </div>
