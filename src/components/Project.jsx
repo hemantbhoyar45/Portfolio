@@ -49,7 +49,7 @@ export default function Project({ title, src, description, codeUrl, projectUrl, 
           className="position-relative p-4 d-flex flex-column justify-content-end rounded-bottom-4"
           style={{
             zIndex: 3,
-            height: hovered ? "auto" : "140px",
+            height: hovered ? "auto" : "150px",
             transition: "height 0.35s ease",
             overflow: "hidden",
           }}
@@ -61,12 +61,6 @@ export default function Project({ title, src, description, codeUrl, projectUrl, 
           >
             <span
               className="badge bg-primary text-uppercase"
-              style={{
-                fontSize: "0.75rem",
-                fontWeight: "700",
-                letterSpacing: "0.07em",
-                padding: "0.25em 0.6em",
-              }}
             >
               {category}
             </span>
@@ -92,7 +86,7 @@ export default function Project({ title, src, description, codeUrl, projectUrl, 
 
           {/* Description */}
           <p
-            className="text-secondary"
+            className="text-light"
             style={{
               fontSize: "0.9rem",
               lineHeight: "1.4",
@@ -109,12 +103,18 @@ export default function Project({ title, src, description, codeUrl, projectUrl, 
 
           {/* Read More Button */}
           <div className="d-flex justify-content-between">
-          <a href={codeUrl} target="_blank" rel="noopener noreferrer" className="btn btn-sm text-light align-self-start px-3" style={{ backgroundImage: "linear-gradient(to right, #007bff, #ff2c9c)", border: "none" }}>
-            Code
+          <a href={codeUrl} target="_blank" rel="noopener noreferrer" className="btn  text-light align-self-start" style={{ backgroundImage: "linear-gradient(to right, #007bff, #ff2c9c)", border: "none" }}>
+            <i class="fa-solid fa-code"></i>&nbsp; Code
           </a>
-          <a href={projectUrl} target="_blank" rel="noopener noreferrer" className="btn btn-outline-light btn-sm align-self-start px-3">
-            Live
-          </a>
+          <a 
+          href={projectUrl} 
+          target="_blank" 
+          rel="noopener noreferrer" 
+          className="btn btn-outline-light align-self-start d-flex align-items-center gap-2"
+        >
+          <i className="fa-solid fa-circle text-danger" style={{ fontSize: "0.5rem" }}></i>
+          <span>Live</span>
+        </a>
           </div>
         </div>
       </div>

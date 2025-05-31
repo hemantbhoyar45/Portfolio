@@ -16,22 +16,24 @@ export default function Blog({ title, coverImage, date, excerpt, category, fullC
                 <div className="position-relative">
                     <img src={coverImage} alt={title} className="img-fluid w-100" />
                     {/* Category Tag */}
-                    <span className="position-absolute top-0 start-0 m-2 px-2 py-1 bg-danger text-white fw-semibold rounded-pill small shadow-sm" style={{ fontSize: "0.75rem" }}>
+                    <span className="position-absolute top-0 start-0 m-3 badge bg-danger text-white fw-bold">
                         {category}
                     </span>
                 </div>
 
                 {/* Card Content */}
                 <div className="p-3 d-flex flex-column justify-content-between">
-                    <div className="d-flex align-items-center fw-bold mb-2">
-                        <FaCalendarAlt className="me-2" />
-                        <small>{date}</small>
-                    </div>
+                    <small
+                        className="d-flex align-items-center mb-2 fw-bold text-secondary"  
+                    >
+                    <FaCalendarAlt className="me-1" />
+                    {date}
+                    </small>
                     <h5 className="fw-bold" style={{ color: "violet" }}>{title}</h5>
-                    <p className="text-secondary mb-3" style={{ fontSize: "0.95rem" }}>{excerpt}</p>
-                    <button onClick={handleShow} className="btn btn-sm text-white fw-medium" style={{ backgroundColor: "#b26be8", borderRadius: "10px" }}>
-                        Read More
-                    </button>
+                    <p className="text-light mb-3" style={{ fontSize: "0.95rem" }}>{excerpt}</p>
+                    <a onClick={handleShow} className="fw-medium" style={{ color: "#b26be8", cursor: "pointer" }}>
+                        Read More...
+                    </a>
                 </div>
             </div>
 
