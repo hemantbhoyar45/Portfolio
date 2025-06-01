@@ -1,6 +1,7 @@
 import Hero from './Hero';
 import { Typewriter } from 'react-simple-typewriter';
 import { motion } from 'framer-motion';
+import { FaGithub } from 'react-icons/fa';  // FaGithub is the regular GitHub logo
 
 export default function Home() {
     return (
@@ -29,7 +30,8 @@ export default function Home() {
                                     'Aspiring Software Engineer',
                                     'Full Stack Web Developer',
                                     'MERN Stack Enthusiast',
-                                    'Open Source Contributor'
+                                    'AI Explorer',
+                                    'Blockchain Enthusiast'
                                     ]}
                                     loop={true}
                                     cursor

@@ -15,7 +15,7 @@ export default function ProjectList() {
         {
             title: "Wanderlust",
             src: "/wanderlust_image.png",
-            description: "A full-stack Airbnb clone that allows users to explore and book stays across various destinations. Features include property listing, booking management, authentication, and responsive UI. Built with Next.js, Tailwind CSS, Prisma, and MongoDB.",
+            description: "A full-stack Airbnb clone that allows users to explore and book stays across various destinations. Features include property listing, booking management, authentication, and responsive UI. The application is built using Node.js, Express.js, MongoDB, and EJS for server-side rendering. It also exposes RESTful APIs for various operations, ensuring a scalable and modular architecture.",
             codeUrl: "https://github.com/Yash-Atkari/Wanderlust",
             projectUrl: "https://airbnb-clone-1-2et5.onrender.com",
             category: "Travel",
@@ -24,7 +24,7 @@ export default function ProjectList() {
         {
             title: "VibeSync",
             src: "/vibesync_image.png",
-            description: "A music-sharing and syncing platform designed to connect users through real-time collaborative playlists. Users can create rooms, sync playback, and chat with others. Built with React, Node.js, Express, and WebSockets.",
+            description: "A compassionate mental health chatbot designed to detect emotions and provide gentle, thoughtful responses. Powered by OpenAI, it creates a safe, calming space where users can express themselves freely and feel truly heard. With a focus on emotional awareness and simplicity, VibeSync blends powerful AI with a human-centered design to support mental well-being.",
             codeUrl: "https://github.com/Yash-Atkari/VibeSync",
             projectUrl: "https://vibesync-ao2c.onrender.com/chatbot",
             category: "Wellness",

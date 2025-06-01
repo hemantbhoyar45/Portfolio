@@ -4,7 +4,7 @@ export default function HackathonList() {
     let certificates = [
         {
             name: "Healthcare Management System Hackathon",
-            organizer: "Fluxus IIT Indore",
+            organizer: "Fluxus - IIT Indore",
             duration: "",
             date: "15 March 2025",
             certificate: "/Healthcare_Hackathon_Certificate.png",
@@ -19,11 +19,11 @@ export default function HackathonList() {
             redirect: ""
         },
         {
-            name: "Ecothon 2025 Hackathon",
+            name: "Ecothon 4.O Hackathon",
             organizer: "Sipna College of Engineering and Technology, Amravati",
             duration: "",
             date: "10 March 2025",
-            certificate: "",
+            certificate: "/Ecothon_4.O_Certificate.jpg",
             redirect: ""
         },
         {

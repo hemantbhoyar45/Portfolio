@@ -1,17 +1,45 @@
 import { useState } from "react";
 import { FaCalendarAlt } from "react-icons/fa";
 import { Modal } from "react-bootstrap";
-import aarogyamContent from "../blogContents/aarogyamContent";
 
-export default function Blog({ title, coverImage, date, excerpt, category, fullContent }) {
+export default function Blog({ title, coverImage, date, excerpt, category }) {
     const [showModal, setShowModal] = useState(false);
 
     const handleClose = () => setShowModal(false);
-    const handleShow = () => setShowModal(true); // background: rgba(15, 15, 30, 0.75);
+    const handleShow = () => setShowModal(true);
 
     return (
+        <>
+        <style>{`
+        /* This styles the modal content container */
+        .glassmorphic-modal {
+        background-color: rgba(15, 15, 30, 0.5) !important; /* translucent */
+        backdrop-filter: blur(50px);
+        -webkit-backdrop-filter: blur(12px);
+        border-radius: 20px !important;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+        color: white;
+        }
+
+        /* Override modal-dialog max width so fullscreen works nicely */
+        .modal-fullscreen .modal-dialog {
+        max-width: 100vw !important;
+        margin: 0 !important;
+        height: 100vh !important;
+        }
+
+        /* Remove background from modal itself, to avoid layering issues */
+        .modal-content {
+        background: transparent !important;
+        box-shadow: none !important;
+        }
+        `}</style>
         <div className="col-12 col-md-6 col-lg-4 mb-4">
-            <div className="blog-card rounded-4 overflow-hidden shadow-lg text-white position-relative h-100" style={{ backgroundColor: "rgba(15, 15, 30, 0.7)" }}>
+            <div
+                className="blog-card rounded-4 overflow-hidden shadow-lg text-white position-relative h-100"
+                style={{ backgroundColor: "rgba(15, 15, 30, 0.7)" }}
+            >
                 {/* Cover Image */}
                 <div className="position-relative">
                     <img src={coverImage} alt={title} className="img-fluid w-100" />
@@ -23,38 +51,66 @@ export default function Blog({ title, coverImage, date, excerpt, category, fullC
 
                 {/* Card Content */}
                 <div className="p-3 d-flex flex-column justify-content-between">
-                    <small
-                        className="d-flex align-items-center mb-2 fw-bold text-secondary"  
-                    >
-                    <FaCalendarAlt className="me-1" />
-                    {date}
+                    <small className="d-flex align-items-center mb-2 fw-bold text-secondary">
+                        <FaCalendarAlt className="me-1" />
+                        {date}
                     </small>
                     <h5 className="fw-bold" style={{ color: "violet" }}>{title}</h5>
-                    <p className="text-light mb-3" style={{ fontSize: "0.95rem" }}>{excerpt}</p>
-                    <a onClick={handleShow} className="fw-medium" style={{ color: "#b26be8", cursor: "pointer" }}>
+                    <p className="text-light mb-3" style={{ fontSize: "0.95rem" }}>
+                        {excerpt.slice(0, 150)}...
+                    </p>
+                    <span onClick={handleShow} className="fw-medium" style={{ color: "#b26be8", cursor: "pointer" }}>
                         Read More...
-                    </a>
+                    </span>
                 </div>
             </div>
 
-            {/* Enhanced Modal */}
-            <Modal show={showModal} onHide={handleClose} centered size="lg" contentClassName="bg-dark text-white rounded-4">
-                <Modal.Header closeButton closeVariant="white" className="border-0 pb-0">
-                    <Modal.Title className="fw-bold" style={{ color: "#b26be8" }}>
-                        {title}
-                    </Modal.Title>
-                </Modal.Header>
+            {/* Full-Screen Modal */}
+            <Modal
+            show={showModal}
+            onHide={handleClose}
+            fullscreen
+            contentClassName="glassmorphic-modal" // sets .modal-content background
+            >
+            <Modal.Body className="px-4">
+                <div className="mb-3 m-auto" style={{ width: "75%" }}>
+                    <h2 className="fw-bold mb-2" style={{ color: "violet" }}>{title}</h2>
+                    <div className="d-flex justify-content-between align-items-center text-secondary small">
+                        <small
+                        className="d-flex align-items-center fw-bold text-secondary"  
+                        >
+                        <FaCalendarAlt className="me-1" />
+                        {date}
+                        </small>
+                        <span className="badge bg-danger fw-bold">{category}</span>
+                    </div>
+                </div>
+                {/* Cover Image */}
+                <div className="text-center mb-4">
+                <img
+                    src={coverImage}
+                    alt={title}
+                    className="img-fluid rounded-4 shadow"
+                    style={{ maxHeight: "600px", objectFit: "cover", width: "75%" }}
+                />
+                </div>
 
-                <Modal.Body style={{ maxHeight: "70vh", overflowY: "auto", whiteSpace: "pre-line", fontSize: "1rem", lineHeight: "1.7" }}>
-                    {aarogyamContent}
-                </Modal.Body>
-
-                <Modal.Footer className="border-0 pt-0">
-                    <button onClick={handleClose} className="btn btn-outline-light px-4 rounded-pill">
-                        Close
-                    </button>
-                </Modal.Footer>
+                {/* Blog Content */}
+                <div
+                className="px-md-3 m-auto px-1"
+                style={{
+                    whiteSpace: "pre-wrap",
+                    lineHeight: "1.8",
+                    fontSize: "1.1rem",
+                    color: "#ddd",
+                    width: "75%"
+                }}
+                >
+                {excerpt}
+                </div>
+            </Modal.Body>
             </Modal>
         </div>
+        </>
     );
 }

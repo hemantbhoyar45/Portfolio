@@ -1,4 +1,10 @@
 import Blog from './Blog.jsx';
+import aarogyamContent from "../blogContents/aarogyamContent";
+import aiContent from "../blogContents/aiContent";
+import hackathonContent from "../blogContents/hackathonContent";
+import journeyContent from "../blogContents/journeyContent";
+import vibesyncContent from "../blogContents/vibesyncContent";
+import bridgepayContent from "../blogContents/bridgepayContent";
 
 export default function BlogList() {
     const blogs = [
@@ -6,7 +12,7 @@ export default function BlogList() {
             title: "The Future of Healthcare Management Systems",
             coverImage: "/aarogyam_blog.png",
             date: "April 12, 2025",
-            excerpt: "Exploring how technology is transforming healthcare management and the development of my student project...",
+            excerpt: aarogyamContent,
             category: "Healthcare Tech",
             readMoreUrl: "/blogs/healthcare-management-system"
         },
@@ -14,7 +20,7 @@ export default function BlogList() {
             title: "How AI Impacted My Life & Career",
             coverImage: "/AI_blog.jpg",
             date: "April 18, 2025",
-            excerpt: "From coding assistants to hackathons, discover how AI reshaped the way I build, learn, and think...",
+            excerpt: aiContent,
             category: "AI & Productivity",
             readMoreUrl: "/blogs/ai-impact"
         },
@@ -22,7 +28,7 @@ export default function BlogList() {
             title: "Hackathon Journey 2025",
             coverImage: "/hackathon_blog.png",
             date: "April 22, 2025",
-            excerpt: "A 24-hour sprint, sleepless nights, and a chatbot that stole the show. Here’s how I built my hackathon MVP...",
+            excerpt: hackathonContent,
             category: "Tech Journey",
             readMoreUrl: "/blogs/hackathon-journey-2025"
         },
@@ -30,7 +36,7 @@ export default function BlogList() {
             title: "My 8-Month Coding Batch Experience",
             coverImage: "/coding_blog.png",
             date: "April 29, 2025",
-            excerpt: "Over 300 questions, countless errors, and one big transformation. Here's my story of consistency and growth...",
+            excerpt: journeyContent,
             category: "Learning Path",
             readMoreUrl: "/blogs/batch-coding-journey"
         },
@@ -38,7 +44,7 @@ export default function BlogList() {
             title: "VibeSync – An AI-Driven Music Sync Platform",
             coverImage: "/vibesync_blog.png",
             date: "May 4, 2025",
-            excerpt: "Discover how I built an AI-powered music-sync app that lets users vibe together in real time...",
+            excerpt: vibesyncContent,
             category: "AI Projects",
             readMoreUrl: "/blogs/vibesync"
         },
@@ -46,7 +52,7 @@ export default function BlogList() {
             title: "Building a Web3 Remittance Platform",
             coverImage: "/blockchain_blog.jpeg",
             date: "May 10, 2025",
-            excerpt: "Learn how I used blockchain to create a fast, secure, and low-cost cross-border remittance platform...",
+            excerpt: bridgepayContent,
             category: "Web3 & Blockchain",
             readMoreUrl: "/blogs/web3-remittance"
         }

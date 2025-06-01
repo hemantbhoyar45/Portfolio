@@ -12,7 +12,7 @@ export default function Footer() {
 
         footer a {
             color: white;
-            transition: all 0.3s ease;
+            transition: all 0.2s ease;
             font-size: 1.2rem;
         }
 
