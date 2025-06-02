@@ -37,7 +37,7 @@ export default function HackathonList() {
     ];
 
     return (
-        <div className="row">
+        <div className="row px-3">
             {
                 certificates.map((obj, idx) => (
                     <HackathonCard

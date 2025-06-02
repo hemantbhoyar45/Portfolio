@@ -136,7 +136,7 @@ export default function About() {
             </section>         
 
             {/* Hackathons & Events Section */}
-            <section id="events" className="row align-items-center px-5" style={{minHeight: "99vh", paddingTop: "150px" }}>
+            <section id="events" className="row align-items-center" style={{minHeight: "99vh", paddingTop: "150px" }}>
                 <div className="col-12 col-md-8">
                     <HackathonList />
                 </div>
@@ -146,7 +146,7 @@ export default function About() {
             </section>
 
             {/* Certification Section */}
-            <section id="certifications" className="row align-items-center px-5" style={{minHeight: "99vh", paddingTop: "100px"}}>
+            <section id="certifications" className="row align-items-center" style={{minHeight: "99vh", paddingTop: "100px"}}>
                 <div>
                     <CertificateList />
                 </div>

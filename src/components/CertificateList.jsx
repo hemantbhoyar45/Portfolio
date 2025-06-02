@@ -23,7 +23,7 @@ export default function CertificateList() {
     ];
 
     return (
-        <div className="row">
+        <div className="row px-3">
             {certificates.map((cert, idx) => (
                 <CertificateCard
                     key={idx}

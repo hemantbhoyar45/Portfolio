@@ -1,6 +1,6 @@
 export default function Codolio() {
     return (
-        <div className="px-4 py-5" style={{ minHeight: "90vh", width: "99vw"}}>
+        <div className="py-5" style={{ minHeight: "90vh", width: "99vw"}}>
             <div className="text-center text-white mb-4">
                 <h2 className="fw-bold" style={{ color: "violet" }}>My Codolio Profile</h2>
                 <p className="text-secondary">Track my live journey, challenges, and achievements in coding!</p>

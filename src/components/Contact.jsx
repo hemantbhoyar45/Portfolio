@@ -72,7 +72,7 @@ export default function Contact() {
             }
             `}
         </style>
-        <div className="px-4 py-2" style={{minHeight: "99vh", width: "99vw"}}>
+        <div className="px-3 py-2" style={{minHeight: "99vh", width: "99vw"}}>
             <div className="d-flex flex-column align-items-center text-white">
                 <ContactAnimation />
                 <h2 className="fw-bold" style={{ color: "violet"}}>Get In Touch</h2>

@@ -41,7 +41,7 @@ export default function ProjectList() {
         }
     ];
     return (
-        <div className="row" style={{width: "99vw", margin: "0"}}>
+        <div className="row" style={{width: "99vw", margin: "0", marginTop: "20px"}}>
                 {projects.map((project, index) => (
                     <Project
                             key={index}
