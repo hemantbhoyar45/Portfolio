@@ -13,7 +13,7 @@ import Codolio from './components/Codolio.jsx';
 import BlogList from './components/BlogList.jsx';
 
 import AnimatedBackground from './components/AnimatedBackground'; 
-import { Color } from 'three';
+import { Color } from 'three'; // 
 
 function App() {
   return (
