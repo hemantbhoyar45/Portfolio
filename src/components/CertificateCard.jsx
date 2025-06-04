@@ -87,6 +87,7 @@ export default function CertificateCard({ title, image, description }) {
             src={image}
             alt={title}
             className="position-absolute w-100 h-100"
+            loading="lazy"
             style={{
               objectFit: "cover",
               transition: "transform 0.2s ease",

@@ -10,6 +10,7 @@ export default function Resume() {
                     <div className="d-flex align-items-center justify-content-center">
                         <img
                             src="/Resume.png"
+                            loading="lazy"
                             title="PDF Viewer"
                             style={{
                                 borderRadius: "10px"
