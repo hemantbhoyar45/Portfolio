@@ -24,7 +24,6 @@ export default function Project({ title, src, description, codeUrl, projectUrl, 
           src={src}
           alt={title}
           className="position-absolute img-fluid top-0 start-0 w-100 h-100"
-          loading="lazy"
           style={{
             objectFit: "cover",
             transition: "transform 0.2s ease",
