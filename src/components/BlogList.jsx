@@ -18,7 +18,7 @@ export default function BlogList() {
         },
         {
             title: "How AI Impacted My Life & Career",
-            coverImage: "/AI_blog.png",
+            coverImage: "/AI_blog.jpg",
             date: "March 30, 2025",
             excerpt: aiContent,
             category: "AI & Productivity",
@@ -50,7 +50,7 @@ export default function BlogList() {
         },
         {
             title: "Building a Web3 Remittance Platform",
-            coverImage: "/blockchain_blog.png",
+            coverImage: "/blockchain_blog.jpeg",
             date: "Feb 18, 2025",
             excerpt: bridgepayContent,
             category: "Web3 & Blockchain",
