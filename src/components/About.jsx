@@ -5,15 +5,6 @@ import HackathonList from './HackathonList';
 import CertificateList from './CertificateList';
 
 export default function About() {
-    const paragraphVariants = {
-        hidden: { opacity: 0, y: 20 },
-        visible: (i) => ({
-            opacity: 1,
-            y: 0,
-            transition: { delay: i * 0.3 },
-        }),
-    };
-    
     return (
         <>
         <div className="px-4 py-2 text-white" >
@@ -24,22 +15,17 @@ export default function About() {
                 <div className="row align-items-center">
                 <div className="col-12 col-md-6 col-lg-8">
                     <h2 className="display-6 fw-bold mb-4" style={{color: "violet"}}>Who I'm</h2>
-                    {[
-                        "Hello, I’m Yash Atkari from Mandhal, Maharashtra. I’m currently pursuing a Bachelor’s degree in Information Technology at G H Raisoni College of Engineering, Nagpur.",
-                        "I have completed comprehensive training in Data Structures and Algorithms using Java, solving over 300 problems to strengthen my foundation. Alongside this, I have hands-on experience with the MERN stack—MongoDB, Express.js, React, and Node.js—for full-stack web development. My skills also extend to Firebase services and Bootstrap for UI design. I am proficient in implementing authentication strategies using Passport.js and managing session and database operations with MongoDB, MySQL, and PostgreSQL. Additionally, I have explored Web3 and blockchain technologies like Solidity and smart contracts.",
-                        "I’m passionate about building innovative and scalable web applications that solve real-world problems. Rather than overwhelming myself with information, I focus on deeply understanding small details to craft thoughtful and creative solutions. Outside of tech, I find joy and balance in spending time with nature—it reminds me of the value of patience, loyalty, and curiosity."
-                    ].map((text, i) => (
-                    <motion.p
-                        key={i}
-                        className="mb-3 text-light"
-                        variants={paragraphVariants}
-                        initial="hidden"
-                        whileInView="visible"
-                        custom={i}
-                    >
-                        {text}
-                    </motion.p>
-                    ))}
+                    <p className="mb-3 text-light">
+                        Hello, I’m Yash Atkari from Mandhal, Maharashtra. I’m currently pursuing a Bachelor’s degree in Information Technology at G H Raisoni College of Engineering, Nagpur.
+                    </p>
+
+                    <p className="mb-3 text-light">
+                        I have completed comprehensive training in Data Structures and Algorithms using Java, solving over 300 problems to strengthen my foundation. Alongside this, I have hands-on experience with the MERN stack—MongoDB, Express.js, React, and Node.js—for full-stack web development. My skills also extend to Firebase services and Bootstrap for UI design. I am proficient in implementing authentication strategies using Passport.js and managing session and database operations with MongoDB, MySQL, and PostgreSQL. Additionally, I have explored Web3 and blockchain technologies like Solidity and smart contracts.
+                    </p>
+
+                    <p className="mb-3 text-light">
+                        I’m passionate about building innovative and scalable web applications that solve real-world problems. Rather than overwhelming myself with information, I focus on deeply understanding small details to craft thoughtful and creative solutions. Outside of tech, I find joy and balance in spending time with nature—it reminds me of the value of patience, loyalty, and curiosity.
+                    </p>
                     <div class="info-grid row">
                         <div class="info-item col-md-6 mb-4">
                             <span class="label fs-5 fw-bold" style={{ color: "violet" }}>Location</span><br />
