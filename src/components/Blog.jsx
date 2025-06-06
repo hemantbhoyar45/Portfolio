@@ -13,32 +13,26 @@ export default function Blog({ title, coverImage, date, excerpt, category }) {
         <style>{`
         /* This styles the modal content container */
         .glassmorphic-modal {
-        background-color: rgba(15, 15, 30, 0.4); /* Slightly lighter translucency for better performance */
-        backdrop-filter: blur(25px);             /* Reduced blur for performance and clarity */
-        -webkit-backdrop-filter: blur(25px);
-        border-radius: 1.25rem;                  /* 20px = 1.25rem for readability */
-        border: 1px solid rgba(255, 255, 255, 0.08);
-        box-shadow: 0 0 20px rgba(0, 0, 0, 0.35);
-        color: #fff;
-        overflow: hidden;
+        background-color: rgba(15, 15, 30, 0.5) !important; /* translucent */
+        backdrop-filter: blur(50px);
+        -webkit-backdrop-filter: blur(12px);
+        border-radius: 20px !important;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+        color: white;
         }
 
-        /* Ensure fullscreen modal has no padding/margins */
+        /* Override modal-dialog max width so fullscreen works nicely */
         .modal-fullscreen .modal-dialog {
-        width: 100vw;
-        height: 100vh;
-        margin: 0;
-        max-width: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        max-width: 100vw !important;
+        margin: 0 !important;
+        height: 100vh !important;
         }
 
-        /* Remove default modal background and shadow */
+        /* Remove background from modal itself, to avoid layering issues */
         .modal-content {
-        background: transparent;
-        box-shadow: none;
-        border: none;
+        background: transparent !important;
+        box-shadow: none !important;
         }
         `}</style>
         <div className="col-12 col-md-6 col-lg-4 mb-4">
