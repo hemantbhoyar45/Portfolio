@@ -3,7 +3,7 @@ import CertificateCard from './CertificateCard';
 export default function CertificateList() {
     const certificates = [
         {
-            title: "Data Structures and Algorithm Certificate    ",
+            title: "Data Structures and Algorithm Certificate",
             image: "/DSA_Certificate.webp",
             description: "Completed a course on Data Structures and Algorithm in Java",
             viewLink: "/DSA_Certificate.png"

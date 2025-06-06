@@ -1,6 +1,6 @@
 import Subnavbar from './Subnavbar';
 import { motion } from 'framer-motion';
-import Hackathon from './Hackathon';
+import HackathonAnimation from './HackathonAnimation';
 import HackathonList from './HackathonList';
 import CertificateList from './CertificateList';
 
@@ -142,7 +142,7 @@ export default function About() {
                     <HackathonList />
                 </div>
                 <div className="col-12 col-md-4 col-lg-4 text-center">
-                    <Hackathon />
+                    <HackathonAnimation />
                 </div>
             </section>
 
