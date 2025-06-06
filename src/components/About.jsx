@@ -62,7 +62,7 @@ export default function About() {
 
                 <div className="col-12 col-md-6 col-lg-4 text-center">
                     <img
-                    src="/yash_1.png"
+                    src="/yash_1.webp"
                     loading="lazy"
                     alt="Yash Profile"
                     className="img-fluid rounded-circle shadow bg-secondary bg-opacity-10"

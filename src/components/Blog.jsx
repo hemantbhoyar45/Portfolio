@@ -42,7 +42,7 @@ export default function Blog({ title, coverImage, date, excerpt, category }) {
             >
                 {/* Cover Image */}
                 <div className="position-relative">
-                    <img src={coverImage} alt={title} className="img-fluid w-100" />
+                    <img src={coverImage} alt={title} loading="lazy" className="img-fluid w-100" />
                     {/* Category Tag */}
                     <span className="position-absolute top-0 start-0 m-3 badge bg-danger text-white fw-bold">
                         {category}
