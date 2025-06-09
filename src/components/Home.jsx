@@ -43,7 +43,6 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="col-12 col-md-6 col-lg-4 text-center">
-                            <Hero />
                         </div>
                     </div>
                 </div>
