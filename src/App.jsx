@@ -13,7 +13,7 @@ import Codolio from './components/Codolio.jsx';
 import BlogList from './components/BlogList.jsx';
 
 import AnimatedBackground from './components/AnimatedBackground'; 
-import { Color } from 'three'; // Trigger streak // 
+import { Color } from 'three'; // Trigger streak // // 
 
 function App() {
   return (
