@@ -9,7 +9,7 @@ export default function Resume() {
                 <section style={{ width: "90vw", maxWidth: "1000px" }}>
                     <div className="d-flex align-items-center justify-content-center">
                         <img
-                            src="/Resume.png"
+                            src="/Resume.jpg"
                             title="PDF Viewer"
                             style={{
                                 borderRadius: "10px"
