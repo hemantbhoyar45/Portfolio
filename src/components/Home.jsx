@@ -1,7 +1,6 @@
-import Hero from './Hero';
+import { lazy, Suspense } from 'react';
+const Hero = lazy(() => import('./Hero'));
 import { Typewriter } from 'react-simple-typewriter';
-import { motion } from 'framer-motion';
-import { FaGithub } from 'react-icons/fa';  // FaGithub is the regular GitHub logo
 
 export default function Home() {
     return (
@@ -43,7 +42,9 @@ export default function Home() {
                             </p>
                         </div>
                         <div className="col-12 col-md-6 col-lg-4 text-center">
-                            <Hero />
+                            <Suspense fallback={<div>Loading...</div>}>
+                                <Hero />
+                            </Suspense>
                         </div>
                     </div>
                 </div>
@@ -62,7 +63,7 @@ export default function Home() {
                         >
                             <i
                             className="fa-brands fa-linkedin-in p-2"
-                            style={{ color: "#b26be8", transition: "all 0.3s ease" }}
+                            style={{ color: "#b26be8" }}
                             title="LinkedIn"
                             ></i>
                         </a>
@@ -76,7 +77,7 @@ export default function Home() {
                         >
                             <i
                             className="fa-brands fa-github p-2"
-                            style={{ color: "#b26be8", transition: "all 0.3s ease" }}
+                            style={{ color: "#b26be8" }}
                             title="GitHub"
                             ></i>
                         </a>
@@ -90,7 +91,7 @@ export default function Home() {
                             >
                             <i
                                 className="fa-solid fa-envelope p-2"
-                                style={{ color: "#b26be8", transition: "all 0.3s ease" }}
+                                style={{ color: "#b26be8" }}
                                 title="Email"
                             ></i>
                         </a>

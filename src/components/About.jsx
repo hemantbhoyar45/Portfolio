@@ -1,14 +1,17 @@
-import Subnavbar from './Subnavbar';
-import { motion } from 'framer-motion';
-import HackathonAnimation from './HackathonAnimation';
-import HackathonList from './HackathonList';
-import CertificateList from './CertificateList';
+import { lazy, Suspense } from 'react';
+const Subnavbar = lazy(() => import('./Subnavbar'));
+const Skills = lazy(() => import('./Skills'));
+const HackathonAnimation = lazy(() => import('./HackathonAnimation'));
+const HackathonList = lazy(() => import('./HackathonList'));
+const CertificateList = lazy(() => import('./CertificateList'));
 
 export default function About() {
     return (
         <>
         <div className="px-4 py-2 text-white" >
-            <Subnavbar />
+            <Suspense fallback={<div>Loading...</div>}>
+                <Subnavbar />
+            </Suspense>
             {/* Me Section */}
             <section id="me" className="d-flex align-items-center justify-content-center" style={{ minHeight: "99vh", paddingTop: "80px"}}>
             <div className="container">
@@ -61,81 +64,31 @@ export default function About() {
 
             {/* Skills Section */}
             <section id="skills" className="container py-5" style={{ minHeight: "99vh", paddingTop: "170px" }}>                
-                <div className="row g-4 text-light" style={{marginTop: "75px"}}>
-                    {[
-                    {
-                        title: "Programming Languages",
-                        icon: "fa-solid fa-code text-primary",
-                        items: ["Java", "JavaScript", "Node.js", "C", "Python", "HTML", "CSS"]
-                    },
-                    {
-                        title: "Libraries & Frameworks",
-                        icon: "fa-solid fa-diagram-project text-warning",
-                        items: ["React.js", "Express.js", "Bootstrap", "Web3.js"]
-                    },
-                    {
-                        title: "Tools & Platforms",
-                        icon: "fa-solid fa-toolbox text-danger",
-                        items: ["Git", "GitHub", "VS Code", "Firebase", "Microsoft Azure", "IntelliJ IDEA", "Hoppscotch"]
-                    },
-                    {
-                        title: "Databases",
-                        icon: "fa-solid fa-database text-secondary",
-                        items: ["MongoDB", "MySQL", "PostgreSQL"]
-                    },
-                    {
-                        title: "CS Fundamentals",
-                        icon: "fa-solid fa-gears text-success",
-                        items: ["Data Structures & Algorithms", "OOPs", "Operating Systems", "DBMS", "Computer Networking"]
-                    },
-                    {
-                        title: "Blockchain",
-                        icon: "fa-brands fa-ethereum text-info",
-                        items: ["Solidity", "Ethereum", "Smart Contracts", "MetaMask", "Remix IDE"]
-                    },
-                    {
-                        title: "AI/ML",
-                        icon: "fa-solid fa-robot text-info-emphasis",
-                        items: ["Azure AI", "Scikit-learn", "OpenAI API", "Hugging Face", "LangChain"]
-                    },
-                    {
-                        title: "Web Development",
-                        icon: "fa-solid fa-globe text-light-emphasis",
-                        items: ["MERN Stack", "RESTful APIs", "Responsive Design"]
-                    }
-                    ].map((category, index) => (
-                    <div key={index} className="col-md-6 col-lg-3">
-                        <div className="p-3 rounded-4 h-100 shadow-sm border border-secondary" data-tilt style={{ backgroundColor: "rgba(15, 15, 30, 0.7)" }}>
-                        <h5 className="mb-3 d-flex align-items-center gap-2" style={{color: "violet"}}>
-                            <i className={`${category.icon}`}></i> {category.title}
-                        </h5>
-                        <ul className="list-unstyled">
-                            {category.items.map((item, idx) => (
-                            <li key={idx} className="mb-1">
-                                <span className="text-info me-2">•</span> {item}
-                            </li>
-                            ))}
-                        </ul>
-                        </div>
-                    </div>
-                    ))}
-                </div>
+                <Suspense fallback={<div>Loading...</div>}>
+                    <Skills />
+                </Suspense>
             </section>         
 
             {/* Hackathons & Events Section */}
             <section id="events" className="row align-items-center" style={{minHeight: "99vh", paddingTop: "150px" }}>
                 <div className="col-12 col-md-8">
-                    <HackathonList />
+                    <Suspense fallback={<div>Loading...</div>}>
+                        <HackathonList />
+                    </Suspense>
                 </div>
                 <div className="col-12 col-md-4 col-lg-4 text-center">
-                    <HackathonAnimation />
+                    <Suspense fallback={<div>Loading...</div>}>
+                        <HackathonAnimation />
+                    </Suspense>
                 </div>
             </section>
 
             {/* Certification Section */}
             <section id="certifications" className="row align-items-center" style={{minHeight: "99vh", paddingTop: "100px"}}>
                 <div>
-                    <CertificateList />
+                    <Suspense fallback={<div>Loading...</div>}>
+                        <CertificateList />
+                    </Suspense>
                 </div>
             </section>
         </div>

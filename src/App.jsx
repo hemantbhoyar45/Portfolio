@@ -1,6 +1,6 @@
+import { lazy, Suspense } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
-import React, { lazy, Suspense } from 'react';
 
 const Navbar = lazy(() => import('./components/Navbar.jsx'));
 const Home = lazy(() => import('./components/Home.jsx'));
@@ -14,7 +14,6 @@ const Codolio = lazy(() => import('./components/Codolio.jsx'));
 const BlogList = lazy(() => import('./components/BlogList.jsx'));
 
 import AnimatedBackground from './components/AnimatedBackground'; 
-import { Color } from 'three'; // Trigger streak // // 
 
 function App() {
   return (
