@@ -1,16 +1,17 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import './App.css';
+import React, { lazy, Suspense } from 'react';
 
-import Navbar from './components/Navbar.jsx';
-import Home from './components/Home.jsx';
-import About from './components/About.jsx';
-import Resume from './components/Resume.jsx';
-import ProjectList from './components/ProjectList.jsx';
-import Contact from './components/Contact.jsx';
-import Footer from './components/Footer.jsx';
-import NotFound from './components/NotFound.jsx';
-import Codolio from './components/Codolio.jsx';
-import BlogList from './components/BlogList.jsx';
+const Navbar = lazy(() => import('./components/Navbar.jsx'));
+const Home = lazy(() => import('./components/Home.jsx'));
+const About = lazy(() => import('./components/About.jsx'));
+const Resume = lazy(() => import('./components/Resume.jsx'));
+const ProjectList = lazy(() => import('./components/ProjectList.jsx'));
+const Contact = lazy(() => import('./components/Contact.jsx'));
+const Footer = lazy(() => import('./components/Footer.jsx'));
+const NotFound = lazy(() => import('./components/NotFound.jsx'));
+const Codolio = lazy(() => import('./components/Codolio.jsx'));
+const BlogList = lazy(() => import('./components/BlogList.jsx'));
 
 import AnimatedBackground from './components/AnimatedBackground'; 
 import { Color } from 'three'; // Trigger streak // // 
