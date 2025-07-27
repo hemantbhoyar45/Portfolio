@@ -4,7 +4,7 @@ A modern, responsive personal portfolio website built with **React** and **Vite*
 
 ## Live Demo
 
-[View my Portfolio](https://your-portfolio-link.com)
+[View My Portfolio](https://your-portfolio-link.com)
 
 ## Tech Stack
 
@@ -37,8 +37,6 @@ A modern, responsive personal portfolio website built with **React** and **Vite*
 - Tech skills (Frontend, Backend, Tools)
 - Certifications / Achievements 
 
----
-
 ## Contact
 
 Have any opportunities or collaboration ideas?
@@ -46,8 +44,6 @@ Have any opportunities or collaboration ideas?
 - 📧 Email: [yashatkari7@gmail.com](yashatkari7@gmail.com)
 - 📱 LinkedIn: [My LinkedIn](https://www.linkedin.com/in/yashatkari2005/)
 - 🌐 Portfolio: [My Portfolio](https://yashatkari.netlify.app/)
-
----
 
 ## License
 
