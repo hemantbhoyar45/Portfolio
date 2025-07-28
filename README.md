@@ -45,6 +45,3 @@ Have any opportunities or collaboration ideas?
 - 📱 LinkedIn: [My LinkedIn](https://www.linkedin.com/in/yashatkari2005/)
 - 🌐 Portfolio: [My Portfolio](https://yashatkari.netlify.app/)
 
-## License
-
-This project is open-source and available under the [MIT License](LICENSE).
