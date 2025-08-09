@@ -122,10 +122,10 @@ export default function Contact() {
                                 <span className="fs-5 fw-bold">Email</span>
                                 <br />
                                 <a
-                                    href="mailto:yashatkari7@gmail.com"
+                                    href="mailto:hemanbhoyar6836@gmail.com"
                                     className="text-secondary"
                                 >
-                                    yashatkari7@gmail.com
+                                hemanbhoyar6836@gmail.com
                                 </a>
                             </p>
 
@@ -136,7 +136,7 @@ export default function Contact() {
                                 ></i>
                                 <span className="fs-5 fw-bold">Phone</span>
                                 <br />
-                                <span className="text-secondary">9529623010</span>
+                                <span className="text-secondary">9322477239</span>
                             </p>
 
                             <p className="mb-4">
@@ -147,12 +147,12 @@ export default function Contact() {
                                 <span className="fs-5 fw-bold">LinkedIn</span>
                                 <br />
                                 <a
-                                href="https://www.linkedin.com/in/yashatkari2005/"
+                                href="https://www.linkedin.com/in/hemant-bhoyar-17bb9431b/"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-secondary"
                                 >
-                                linkedin.com/in/yashatkari2005
+                                linkedin.com/in/hemant-bhoyar-17bb9431b/
                                 </a>
                             </p>
 
@@ -164,12 +164,12 @@ export default function Contact() {
                                 <span className="fs-5 fw-bold">GitHub</span>
                                 <br />
                                 <a
-                                href="https://github.com/Yash-Atkari"
+                                href="https://github.com/Hemantbhoyar45"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-secondary" 
                                 >
-                                github.com/Yash-Atkari
+                               github.com/Hemantbhoyar45
                                 </a>
                             </p>
 
@@ -180,7 +180,7 @@ export default function Contact() {
                                 ></i>
                                 <span className="fs-5 fw-bold">Location</span>
                                 <br />
-                                <span className="text-secondary">Nagpur, Maharashtra, India</span>
+                                <span className="text-secondary">Pune, Maharashtra, India</span>
                             </p>
 
                             <p className="text-center mt-auto text-light" style={{ fontStyle: "italic" }}>

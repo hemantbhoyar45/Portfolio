@@ -1,3 +1,5 @@
+import './background.css'; // Import starry background
+
 export default function Resume() {
     return (
         <div style={{ height: "99%", width: "99vw" }}>
@@ -9,7 +11,7 @@ export default function Resume() {
                 <section style={{ width: "90vw", maxWidth: "1000px" }}>
                     <div className="d-flex align-items-center justify-content-center">
                         <img
-                            src="/Resume.jpg"
+                            src="Resume.jpg"
                             title="PDF Viewer"
                             style={{
                                 borderRadius: "10px"
@@ -20,7 +22,7 @@ export default function Resume() {
                 </section>
 
                 <a
-                    href="/Yash_Atkari_Resume.pdf"
+                    href="Hemant_resume.pdf"
                     download
                     className="btn text-white mt-4"
                     rel="noopener noreferrer"

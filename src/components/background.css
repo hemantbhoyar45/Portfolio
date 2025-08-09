@@ -1,0 +1,5 @@
+.starry-background {
+  background: url('https://www.transparenttextures.com/patterns/stardust.png') repeat;
+  background-color: #000; /* Base black */
+  min-height: 100vh;
+}

@@ -9,10 +9,10 @@ export default function CertificateList() {
             viewLink: "/DSA_Certificate.png"
         },
         {
-            title: "Python 3.4.3 Certificate",
-            image: "/Python3.4.3_Certificate.webp",
-            description: "Completed a spoken tutorial training on Python 3.4.3",
-            viewLink: "/Python3.4.3_Certificate.png"
+            title: "Web Development Certificate",
+            image: "/web_dev.webp",
+            description: "Completed The Web Development(MERN STACK) from apna college.",
+            viewLink: "/web_dev.png"
         },
         {
             title: "Speakathon Certificate",

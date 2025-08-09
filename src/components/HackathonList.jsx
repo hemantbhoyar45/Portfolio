@@ -7,8 +7,8 @@ export default function HackathonList() {
             organizer: "Fluxus - IIT Indore",
             duration: "",
             date: "15 March 2025",
-            certificate: "/Healthcare_Hackathon_Certificate.png",
-            redirect: "https://www.linkedin.com/feed/update/urn:li:activity:7312830126600175616/"
+            certificate: "/Healthcare_Hackathon_Certificate.jpg",
+            //redirect: "https://www.linkedin.com/feed/update/urn:li:activity:7312830126600175616/"
         },
         {
             name: "Code of Phoenix Hackathon",
@@ -23,7 +23,7 @@ export default function HackathonList() {
             organizer: "Sipna College of Engineering and Technology, Amravati",
             duration: "",
             date: "10 March 2025",
-            certificate: "/Ecothon_4.O_Certificate.jpg",
+            certificate: "/Ecothon_4.O_Certificate.png",
             redirect: ""
         },
         {
