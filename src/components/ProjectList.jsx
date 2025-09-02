@@ -8,7 +8,7 @@ export default function ProjectList() {
             src: "/aarogyam_image.webp",
             description: "A secure, cross-platform digital solution for managing student healthcare within educational institutions. Features include passport-based user authentication, student dashboards, automated leave documentation, and initial appointment booking. Built with EJS, Express.js, Node.js, and MongoDB, the system enhances accessibility, data security, and administrative efficiency.",
             codeUrl: "https://github.com/hemantbhoyar45/Aarogyamm",
-            projectUrl: "https://aarogyamm.onrender.com",
+            projectUrl: "https://aarogyamm-wd8q.onrender.com ",
             category: "Arogyamm",
             date: "2025"
         },
@@ -17,7 +17,7 @@ export default function ProjectList() {
             src: "/wanderlust_image.webp",
             description: "A full-stack Airbnb clone that allows users to explore and book stays across various destinations. Features include property listing, booking management, authentication, and responsive UI. The application is built using Node.js, Express.js, MongoDB, and EJS for server-side rendering. It also exposes RESTful APIs for various operations, ensuring a scalable and modular architecture.",
             codeUrl: "https://github.com/hemantbhoyar45/Majorproject",
-            projectUrl: "https://airbnb-8qx1.onrender.com",
+            projectUrl: "https://airbnb-e25h.onrender.com ",
             category: "Travel",
             date: "2025"
         },
@@ -35,7 +35,7 @@ export default function ProjectList() {
             src: "/portfolio_image.webp",
             description: "A personal developer portfolio showcasing projects, skills, and experience in a visually engaging layout. Built with React and styled using Bootstrap and custom CSS, it serves as a professional online presence.",
             codeUrl: "https://github.com/hemantbhoyar45/Portfolio",
-            projectUrl: "https://yash-atkari-portfolio-3.onrender.com",
+            projectUrl: "https://my-portfolio-s3jm.onrender.com",
             category: "Portfolio",
             date: "2025"
         },

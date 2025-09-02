@@ -5,7 +5,7 @@ export default function CertificateList() {
         {
             title: "Data Structures and Algorithm Certificate",
             image: "/DSA_Certificate.webp",
-            description: "Completed a course on Data Structures and Algorithm in Java",
+            description: "Completed a course on Data Structures and Algorithm in C++",
             viewLink: "/DSA_Certificate.png"
         },
         {

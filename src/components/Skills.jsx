@@ -5,17 +5,17 @@ export default function Skills() {
                     {
                         title: "Programming Languages",
                         icon: "fa-solid fa-code text-primary",
-                        items: ["C++", "JavaScript", "Node.js", "C", "Python", "HTML", "CSS"]
+                        items: ["C++", "Java", "JavaScript(ES6+", "C", "Python"]
                     },
                     {
                         title: "Libraries & Frameworks",
                         icon: "fa-solid fa-diagram-project text-warning",
-                        items: ["React.js", "Express.js", "Bootstrap","Tailwind", "Web3.js"]
+                        items: ["React.js", "Next.js", "Node.js","Express.js", "Bootstrap","Tailwind", "Web3.js"]
                     },
                     {
                         title: "Tools & Platforms",
                         icon: "fa-solid fa-toolbox text-danger",
-                        items: ["Git", "GitHub", "VS Code", "Firebase", "Microsoft Azure", "AWS", "Google Cloud" , "IntelliJ IDEA", "Hoppscotch"]
+                        items: ["Git", "GitHub", "VS Code", "Firebase", "Microsoft Azure", "AWS", "Google Cloud" ,"Docker", "IntelliJ IDEA", "Hoppscotch"]
                     },
                     {
                         title: "Databases",

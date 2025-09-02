@@ -24,7 +24,7 @@ export default function About() {
                             <div className="col-12 col-md-6 col-lg-8">
                                 <h2 className="display-6 fw-bold mb-4" style={{ color: "violet" }}>Who I'm</h2>
                                 <p className="mb-3 text-light">
-                                    Hello, I’m Hemant Bhoyar From Kuhi , Nagpur, Maharashtra. I’m currently pursuing a Bachelor’s degree in Computer Science at Vishwakarma Institute Of Technogy, Pune.
+                                    Hello, I’m Hemant Bhoyar From Kuhi , Nagpur, Maharashtra. I’m currently pursuing a Bachelor’s degree in Computer Science(Cyber Security & IOT)from Vishwakarma Institute Of Technogy, Pune.
                                 </p>
 
                                 <p className="mb-3 text-light">
@@ -50,7 +50,7 @@ export default function About() {
                                     </div>
                                     <div className="info-item col-md-6 mb-4">
                                         <span className="label fs-5 fw-bold" style={{ color: "violet" }}>Degree</span><br />
-                                        <span className="value">B.Tech in Computer Science</span>
+                                        <span className="value">B.Tech in Computer Science(Cyber Security & IOT)</span>
                                     </div>
                                 </div>
                             </div>
